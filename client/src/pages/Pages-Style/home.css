@@ -1,0 +1,56 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1em;
+}
+.btn {
+    border: none;
+    padding: .8em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6c63fe;
+    color: #fff;
+}
+.row-btn .btn {
+    background-color: transparent;
+    color: #000;
+    padding: .8em 1em;
+    text-decoration: underline;
+}
+.row-btn .btn:hover {
+    color: #6c63fe;
+}
+.contact-btn {
+    margin: 1em 0;
+    transition: .3s ease;
+}
+.contact-btn:hover {
+    background-color: #b8b8ff;
+}
+table {
+    border-collapse: collapse;
+    box-shadow: 0 0 15px 1px #f2f2f2;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+table thead th,
+table tbody td {
+    padding: .5em 1em;
+    text-align: left;
+}
+table thead th {
+    padding: 1em 1em;
+}
+table thead {
+    background-color: #6c63fe;
+    color: #fff;
+}
+table tbody {
+    border-bottom: .5em solid #6c63fe;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #f1f1ff;
+}

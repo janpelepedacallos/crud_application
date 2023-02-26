@@ -1,0 +1,45 @@
+.add-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.add-edit .add-container form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px 1px #f2f2f2;
+    padding: 2em;
+    border-radius: 10px;
+}
+.add-edit .add-container form input {
+    width: 25em;
+    padding: .7em 1em;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.add-edit .add-container form label {
+    font-size: .8em;
+    margin-top: .5em;
+}
+.add-edit .add-container .contact-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.add-edit .add-container form .contact-buttons input {
+    cursor: pointer;
+    margin-top: 1em;
+    width: 10em;
+    padding: .5em 0;
+    border: 1.5px solid transparent;
+    background-color: #6c63fe;
+    color: #fff;
+}
+.add-edit .add-container form .contact-buttons .back-btn {
+    background-color: #fff;
+    color: #6c63fe;
+    border-color: #6c63fe;
+}
+.add-edit .add-container form input:focus {
+    border-color: #6c63fe;
+}
